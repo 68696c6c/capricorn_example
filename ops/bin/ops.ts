@@ -6,7 +6,7 @@ import { OpsStack } from '../lib/ops-stack'
 const app = new cdk.App()
 new OpsStack(app, 'OpsStack', {
 	env: {
-		account: '501877011637',
+		account: '495315319309',
 		region: 'us-east-1',
 	}
 })
